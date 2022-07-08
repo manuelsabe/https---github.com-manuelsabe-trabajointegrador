@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'libre';
+    src: url("/Libre_Barcode_128_Text/LibreBarcode128Text-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'shadow';
+    src: url(/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf)
+}
+
+body
+{
+
+    width: 100%;
+    background-image: url(wallpaperbetter.jpg);
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header
+{
+
+    width: 100%;
+    
+}
+
+
+nav
+{
+    width: 100%;
+    border-bottom: solid white;
+    border-width: 1px;
+    position: fixed;
+    
+
+}
+
+.logo
+{
+
+    width: 10%;
+
+}
+
+.logo:hover
+{
+
+    cursor: pointer;
+
+}
+
+.list-navegacion
+{
+
+    padding-left: 90px;
+    width: 45%; 
+    list-style: none;
+    
+}
+
+.flexbox
+{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+
+}
+
+.listas
+{
+    padding-left: 100px;
+    
+}
+
+.listas a
+{
+    font-family: "libre";
+    font-size: 2.0em;
+    text-decoration: none;
+    color: black;
+
+}
+
+.listas a:hover
+{
+
+    text-shadow: white 0.1em 0.1em 0.6em;
+
+}
+
+.principio
+{
+    padding-top: 210px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    
+}
+
+.descripcion
+{  
+    width: 40%;
+}
+.descripcion p
+{
+    color: beige;
+    font-family: "shadow";
+    text-align: center;
+    font-size: 2.3em;
+    text-shadow: black 3px 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.imagenfila
+{
+
+    width: 35%;
+    background-image: url(/garage.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2em;
+
+}
+
+
+.contenedor
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor2
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+
+}
+
+.auto2
+{ 
+
+    width: 50%;
+    margin-top: 50px;
+    padding-top: 50px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.auto2 img
+{
+
+    width: 50%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    box-shadow: #660808 0.3em 0.3em 0.9em;
+    border-radius: 25px;
+
+}
+
+
+p
+{
+
+    margin: 0px;
+    padding: 0px;
+    color: beige;
+    font-family: "shadow";
+    text-align: center;
+    font-size: 1.4em;
+    text-shadow: black 3px 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+.botoncoleccion
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    font-size: 3em;
+    text-transform: uppercase;
+    min-width: 200px;
+    font-family: "libre";
+
+}
+
+.botoncoleccion:hover
+{
+
+    background-color: red;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+.cont-log-reg
+{
+
+    border-top: solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid white;
+    border-width: 1px;
+}
+
+.login-regist
+{
+    width: 100%;
+    margin-top: 10px;
+    color: beige;
+    font-family: "shadow";
+    font-size: 1.4em;
+    text-shadow: red 3px 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: black;
+
+}
+
+
+.boton-r-l
+{
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    min-width: 200px;
+    font-family: "libre";
+}
+
+.boton-r-l:hover
+{
+
+    background-color: red;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+footer
+{
+
+    width: 100%;
+    display: flex;
+    
+}
+
+
+
+.contenedorfoot
+{
+
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+
+
+.contenedorfoot h4
+
+{
+
+    color: white;
+    text-shadow: 1.4px 1.4px black;
+    font-size: 1.2em;
+   
+
+}
+
+
+
+.sisi
+
+{
+    
+    display: flex;
+    
+
+}
+
+.ubi
+{
+
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.hiper
+{
+
+    font-family: 'roboto2';
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 8px;
+    text-decoration: none;
+
+}
+
+.hiper:hover
+{
+    opacity: 0.8;
+}
+
+.contenedorfoot2
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.redes
+{
+
+    width: 32px;
+    margin-top: 3px;
+
+}
+
+.redes:hover
+{
+
+    opacity: 0.8;
+
+}
+
